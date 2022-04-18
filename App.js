@@ -1,11 +1,41 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { View, StyleSheet } from 'react-native';
+import Cat from './Cat';
+import HandlingTextInput from './HandlingTextInput';
+import Scrolling  from './Scrolling';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+        {/* <Cat name="kitty1"/>
+        <Cat name="kitty2"/> */}
+        {/* <HandlingTextInput/> */}
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
+        <Scrolling/>
     </View>
   );
 }
